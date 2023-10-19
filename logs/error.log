@@ -1,0 +1,52 @@
+#logback.classic pattern: [ERROR] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[ERROR] [ERROR] 2023-10-19 23:04:36 [main] [o.springframework.boot.SpringApplication:821] - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@55:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at dev.be.logback.LogBackApplication.main(LogBackApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@55:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:189)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:170)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+#logback.classic pattern: [ERROR] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[ERROR] [ERROR] 2023-10-19 23:05:18 [http-nio-8080-exec-1] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:19 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:20 [http-nio-8080-exec-4] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:21 [http-nio-8080-exec-8] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:22 [http-nio-8080-exec-9] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:22 [http-nio-8080-exec-7] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:23 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:24 [http-nio-8080-exec-4] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:05:25 [http-nio-8080-exec-8] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+#logback.classic pattern: [ERROR] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[ERROR] [ERROR] 2023-10-19 23:06:12 [http-nio-8080-exec-1] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:12 [http-nio-8080-exec-5] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:13 [http-nio-8080-exec-4] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:13 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:14 [http-nio-8080-exec-8] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:14 [http-nio-8080-exec-3] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:15 [http-nio-8080-exec-5] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:15 [http-nio-8080-exec-4] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[ERROR] [ERROR] 2023-10-19 23:06:16 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:17] - log --> ERROR

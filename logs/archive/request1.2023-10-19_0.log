@@ -1,8 +1,0 @@
-#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
-[REQUEST1] [INFO ] 2023-10-19 22:52:18 [main] [dev.be.logback.LogBackApplication:55] - Starting LogBackApplication using Java 11.0.16.1 on LAPTOP-PV547CLP with PID 5632 (C:\Users\crumb\projects\LogBack\build\classes\java\main started by crumb in C:\Users\crumb\projects\LogBack)
-[REQUEST1] [INFO ] 2023-10-19 22:52:18 [main] [dev.be.logback.LogBackApplication:637] - The following 1 profile is active: "prod"
-[REQUEST1] [INFO ] 2023-10-19 22:52:19 [main] [o.s.b.w.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-[REQUEST1] [INFO ] 2023-10-19 22:52:19 [main] [org.apache.catalina.core.StandardService:173] - Starting service [Tomcat]
-[REQUEST1] [INFO ] 2023-10-19 22:52:19 [main] [org.apache.catalina.core.StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.82]
-[REQUEST1] [INFO ] 2023-10-19 22:52:19 [main] [o.a.c.c.C.[Tomcat].[localhost].[/]:173] - Initializing Spring embedded WebApplicationContext
-[REQUEST1] [INFO ] 2023-10-19 22:52:19 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 790 ms
