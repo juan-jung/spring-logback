@@ -1,0 +1,9 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[REQUEST1] [INFO ] 2023-10-19 22:52:25 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:15] - log --> INFO
+[REQUEST1] [WARN ] 2023-10-19 22:52:25 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:16] - log --> WARN
+[REQUEST1] [ERROR] 2023-10-19 22:52:25 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[REQUEST1] [INFO ] 2023-10-19 22:52:25 [http-nio-8080-exec-4] [dev.be.logback.controller.DemoController:15] - log --> INFO
+[REQUEST1] [WARN ] 2023-10-19 22:52:25 [http-nio-8080-exec-4] [dev.be.logback.controller.DemoController:16] - log --> WARN
+[REQUEST1] [ERROR] 2023-10-19 22:52:25 [http-nio-8080-exec-4] [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[REQUEST1] [INFO ] 2023-10-19 22:52:26 [http-nio-8080-exec-6] [dev.be.logback.controller.DemoController:15] - log --> INFO
+[REQUEST1] [WARN ] 2023-10-19 22:52:26 [http-nio-8080-exec-6] [dev.be.logback.controller.DemoController:16] - log --> WARN

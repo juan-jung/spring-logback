@@ -1,0 +1,2 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[REQUEST1] [ERROR] 2023-10-19 22:52:56 [http-nio-8080-exec-2] [dev.be.logback.controller.DemoController:17] - log --> ERROR
